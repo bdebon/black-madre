@@ -35,15 +35,34 @@
 </head>
 
 <body>
-<include src="src/partials/nav.html"></include>
+<nav>
+    <button>
+        <span></span>
+    </button>
 
-<div class="container">
-    <h1>Quick Start Parcel Project</h1>
-</div>
 
-<include src="src/partials/footer.html"></include>
+    <div class="menu" style="display: none;">
+        <div class="image">
+            <div data-project-no="1" class="item item--1" style="background-image: url(https://images.unsplash.com/photo-1581337204764-efe3089a3ba2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1218&q=80); opacity: 1; z-index: 89;"></div>
+            <div data-project-no="2" class="item item--1" style="background-image: url(https://images.unsplash.com/photo-1579539441712-e180bd122890?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1220&q=80)"></div>
+            <div data-project-no="3" class="item item--1" style="background-image: url(https://images.unsplash.com/photo-1584445651808-d517d171e0c9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1217&q=80)"></div>
+            <div data-project-no="4" class="item item--1" style="background-image: url(https://images.unsplash.com/photo-1584446922609-d494912c35c5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1392&q=80)"></div>
+        </div>
+        <div class="list">
+            <div class="project-nb">5 projects</div>
+            <ul>
+                <li><a href="#" data-project-no="1">Project 1</a></li>
+                <li><a href="#" data-project-no="2">Project 2</a></li>
+                <li><a href="#" data-project-no="3">Project 3</a></li>
+                <li><a href="#" data-project-no="4">Project 4</a></li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
 
 <script src="src/index.js"></script>
-
 </body>
 </html>
